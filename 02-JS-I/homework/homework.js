@@ -169,7 +169,7 @@ function esPositivo(numero) {
   if (numero > 0) {
     return "Es positivo";
   }
-  elseif (numero < 0) {
+  else if (numero < 0) {
     return "Es negativo";
   }
   else (numero === 0) {
@@ -237,17 +237,17 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra.length > 1) {
-    return "Dato incorrecto";
-    elseif (letra === 'a' || letra === 'A' || letra === 'e' || letra === 'E' || letra === 'i' 
-            || letra === 'I' || letra === 'o' || letra === 'O' || letra === 'u' || letra === 'U') {
-     return 'Es vocal'
-    }
-     else "Dato incorrecto"
+  if(letra.length == 1 && (letra == 'a' || letra == 'A' || letra == 'e' || letra == 'E' || letra == 'i' || 
+     letra == 'I' || letra == 'o' || letra == 'O' || letra == 'u' || letra == 'U' ) ) 
+  {
+     return 'Es vocal';                 
   }
-
-
-
+  else 
+  {
+    return 'Dato incorrecto';
+  }
+}
+  
 // No modificar nada debajo de esta línea
 // --------------------------------
 
