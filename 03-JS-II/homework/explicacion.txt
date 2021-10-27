@@ -12,11 +12,16 @@ que quisiéramos saber algo.)
 ej: si queremos sacar el 7 de espada, le tenemos que preguntar 
 que sea número y además de espada.
 
-<||> es el operador 'O' ej:  Falta envido
+<||> es el operador 'O' 
+ej:  Falta envido
 Dependiendo de cómo sea el puntaje del partido se gana los puntos: 
-Reglamento moderno: Si los dos equipos coinciden y están en las 
-malas o buenas los dos, el ganador de la falta envido se llevará 
-el partido.
+Si los dos equipos coinciden y están en las 
+malas o buenas los dos, el ganador de la falta envido ganará la 
+partida.
+Si ambos estan en las malas O ambos estan en las buenas
+se ganará la partida.
 
-<!> se usa para indicar la negación de algo. Se usa para indicar
-que no sea igual, se usa '!=', osea que no igual o que sea distinto.
+<!> Se usa para indicar la negación de algo. que no sea igual, ponemos 
+'!=', osea que no igual o que sea distinto.
+No es mismo un ancho de espada, que un ancho de basto y ni que hablar
+de los ancho falsos. 
